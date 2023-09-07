@@ -16,4 +16,5 @@ https://www.sparkfun.com/datasheets/Sensors/Pressure/fsrguide.pdf
 https://learn.adafruit.com/force-sensitive-resistor-fsr/using-an-fsr  
 https://cdn-learn.adafruit.com/downloads/pdf/force-sensitive-resistor-fsr.pdf  
 https://www.makerguides.com/fsr-arduino-tutorial/  
-https://www.sensitronics.com/pdf/Sensitronics_FSR_101.pdf
+https://www.sensitronics.com/pdf/Sensitronics_FSR_101.pdf  
+https://learn.adafruit.com/groups/ladyadas-learn-arduino  
