@@ -18,3 +18,8 @@ https://cdn-learn.adafruit.com/downloads/pdf/force-sensitive-resistor-fsr.pdf
 https://www.makerguides.com/fsr-arduino-tutorial/  
 https://www.sensitronics.com/pdf/Sensitronics_FSR_101.pdf  
 https://learn.adafruit.com/groups/ladyadas-learn-arduino  
+https://www.circuitbasics.com/what-is-a-multiplexer/  
+https://www.circuitbasics.com/arduino/  
+https://www.circuitbasics.com/getting-started-with-the-arduino/  
+https://www.circuitbasics.com/ultimate-guide-to-the-arduino/  
+https://www.circuitbasics.com/how-to-install-and-configure-the-arduino-ide/  
