@@ -5,7 +5,10 @@ The goal of my capstone project is to calibrate an FSR matrix to the level that 
 Some of the materials I'm using include:  
 FSR Matrix (Male Terminal, 20kg Output Voltage)  
 ADC (Analog Digital Convertor)  
-16 Channel Multiplexor  
+16 Channel Multiplexer  
+Arduino UNO
+## Current Progress
+Currently, I have been reading numerous articles about FSR arrays, as well as documents on Arduinos and Multiplexers. I have aquired the Multiplexer components, but am currently still in the process of ataining the FSR array and an Arduino. Upon gathering all these items, I plan to test the Arduino in order ot learn basic functions before implementing the Multiplexer or Matrix.
 ## Resources
 https://www.sensitronics.com/tutorials/fsr-matrix-array/page2.php  
 https://www.tekscan.com/blog/flexiforce/how-does-force-sensing-resistor-fsr-work  
