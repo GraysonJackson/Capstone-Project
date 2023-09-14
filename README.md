@@ -8,7 +8,8 @@ ADC (Analog Digital Convertor)
 16 Channel Multiplexer  
 Arduino UNO
 ## Current Progress
-9/12/2021: Currently, I have been reading numerous articles about FSR arrays, as well as documents on Arduinos and Multiplexers. I have aquired the Multiplexer components, but am currently still in the process of ataining the FSR array and an Arduino. Upon gathering all these items, I plan to test the Arduino in order ot learn basic functions before implementing the Multiplexer or Matrix.  
+9/12/2023: Currently, I have been reading numerous articles about FSR arrays, as well as documents on Arduinos and Multiplexers. I have aquired the Multiplexer components, but am currently still in the process of ataining the FSR array and an Arduino. Upon gathering all these items, I plan to test the Arduino in order ot learn basic functions before implementing the Multiplexer or Matrix.  
+9/14/2023: I have recieved an Arduino UNO and have now been able to light up an LED with it. Along with this, I saudered pins to a multiplexer and have attached it to a breadboard. After working with the multiplexer with Seward for a while, we were able to make LEDs light up at different times by changing whether voltage was going to one of the selection pins after a second delay. I am currentlly still awaiting my FSR matrix, but I have aquired three basic FSRs that I plan to wire to the arduino.  
 
 ## Resources
 https://www.sensitronics.com/tutorials/fsr-matrix-array/page2.php  
