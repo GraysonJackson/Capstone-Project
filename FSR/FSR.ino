@@ -1,9 +1,13 @@
+const int fsrPin = A0; // Analog pin connected to FSR
+const int threshold = 600; // Adjust this threshold based on your FSR and setup
+
 void setup() {
-  pinMode(13, OUTPUT);
+  Serial.begin(9600); // Initialize serial communication
 }
+
 void loop() {
-  digitalWrite(13, HIGH);   
-  delay(1000);              
-  digitalWrite(13, LOW);
-  delay(1000);        
+  int fsrValue = analogRead(fsrPin); // Read FSR value from analog pin
+
+    Serial.println(fsrValue); // Output "Hello world!" if pressure is detected
+    delay(100);
 }
