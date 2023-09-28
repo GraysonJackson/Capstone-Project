@@ -6,3 +6,4 @@ I have recieved an Arduino UNO and have now been able to light up an LED with it
 I have attached a basic FSR to my Arduino UNO board, and have added code so that the serial outport can read the FSR values as pressure is applied. My FSR matrix has arrived, but I need to retrieve it from my home before I can begin working with it. For now, I plan to continue working with the FSR so that I have a basic understanding of how FSRs work.  
 # 9/28/2023:
 I wired the Arduino UNO in Fritzing and then exported the file into an SVG. I plan to update this file by improving readability. The FSRs that I was using broke, so I plan to aquire new ones or aquire my FSR array in order to continue testing.
+![FSR_bb](https://github.com/GraysonJackson/Capstone-Project/assets/99559775/a9018754-34b5-4062-836d-cb77db264588)  
