@@ -7,3 +7,5 @@ I have attached a basic FSR to my Arduino UNO board, and have added code so that
 # 9/28/2023:
 I wired the Arduino UNO in Fritzing and then exported the file into an SVG. I plan to update this file by improving readability. The FSRs that I was using broke, so I plan to aquire new ones or aquire my FSR array in order to continue testing.
 ![FSR_bb](https://github.com/GraysonJackson/Capstone-Project/assets/99559775/a9018754-34b5-4062-836d-cb77db264588)  
+# 10/4/2023:
+I have acquired both new FSRs as well as my FSR array and have continued working on using two FSRs and alternating between the two of them from a multiplexer to a singular analog pin. Working on this has continuted to give me a lot of trouble, namely how to route the two back to the analog pin without interacting with each other. In order for them to send a resistance back to the analog pin, I have to have them go to the same line in the breadboard, but this causes them to send current to the inactive one.
