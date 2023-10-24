@@ -9,3 +9,7 @@ I wired the Arduino UNO in Fritzing and then exported the file into an SVG. I pl
 ![FSR_bb](https://github.com/GraysonJackson/Capstone-Project/assets/99559775/a9018754-34b5-4062-836d-cb77db264588)  
 # 10/4/2023:
 I have acquired both new FSRs as well as my FSR array and have continued working on using two FSRs and alternating between the two of them from a multiplexer to a singular analog pin. Working on this has continuted to give me a lot of trouble, namely how to route the two back to the analog pin without interacting with each other. In order for them to send a resistance back to the analog pin, I have to have them go to the same line in the breadboard, but this causes them to send current to the inactive one.
+# 10/16/2023:
+After failing to swap between the two multiplexers, I have decided to instead ensure that a singlular FSR can go through the multiplexer. After doing this, I also found the singular FSR to be inoperable. I now believe the issue to be a wiring issue.
+# 10/24/2023:
+After continuing to experiment, I am certain that the issue was in the wiring. The most notable change made to the wiring was the changing of the anolog pin, which is now connected to the signal pin instead of being connected to the FSRs. The FSRs are also no longer connected to a second line, and are instead connected to unused ground and positive sections on the breadboard. I am not able to understand why this assists the anolog reading yet, but I plan to find out soon.
