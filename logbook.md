@@ -13,3 +13,7 @@ I have acquired both new FSRs as well as my FSR array and have continued working
 After failing to swap between the two multiplexers, I have decided to instead ensure that a singlular FSR can go through the multiplexer. After doing this, I also found the singular FSR to be inoperable. I now believe the issue to be a wiring issue.
 # 10/24/2023:
 After continuing to experiment, I am certain that the issue was in the wiring. The most notable change made to the wiring was the changing of the anolog pin, which is now connected to the signal pin instead of being connected to the FSRs. The FSRs are also no longer connected to a second line, and are instead connected to unused ground and positive sections on the breadboard. I am not able to understand why this assists the anolog reading yet, but I plan to find out soon.
+# 11/2/2023:
+Having finished the wring for two FSRs, I began saudering another mulitplexer and adding it to the existing breadboard. I also ordered a prototyping board to attach to my Arduino UNO in order to sauder the FSR multiplexer to the board to use it.
+# 11/7/2023:
+Having successfully attached the second multiplexer to the breadboard, I began testing it to see if it has the same functionality as the first multiplexer. This was first tested by using alternating LED lights, and then tested using the same FSR multiplexer code and setup as the first multiplexer.
