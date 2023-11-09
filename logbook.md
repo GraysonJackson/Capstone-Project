@@ -17,3 +17,5 @@ After continuing to experiment, I am certain that the issue was in the wiring. T
 Having finished the wring for two FSRs, I began saudering another mulitplexer and adding it to the existing breadboard. I also ordered a prototyping board to attach to my Arduino UNO in order to sauder the FSR multiplexer to the board to use it.
 # 11/7/2023:
 Having successfully attached the second multiplexer to the breadboard, I began testing it to see if it has the same functionality as the first multiplexer. This was first tested by using alternating LED lights, and then tested using the same FSR multiplexer code and setup as the first multiplexer.
+# 11/9/2023:
+I've tried to connect the two multiplexers to the same anolog pin, and have run into difficulty. While they both work individually, when put together they have the same issue as before where the reading does not change. I feel that this may be because they are both connecting to the anolog pin, even when one isn't supposed to be read. I plan to see if turning the multiplexer off and on with code will change this.

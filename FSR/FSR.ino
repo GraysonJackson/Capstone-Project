@@ -5,10 +5,8 @@ void setup() {
   pinMode(12, OUTPUT);
   pinMode(8, OUTPUT);
 }
-
 void loop() {
   digitalWrite(12,HIGH);
-  digitalWrite(8,HIGH);
   int fsrValue = analogRead(fsrPin); // Read FSR value from analog pin
 
     Serial.println("FSR0:");
@@ -16,10 +14,19 @@ void loop() {
     Serial.println();
   delay(500);
   digitalWrite(12,LOW);
+  Serial.println("FSR1:");
+    Serial.print(fsrValue);
+    Serial.println();
+  delay(500);
+  digitalWrite(8,HIGH);
+  Serial.println("FSR2:");
+    Serial.print(fsrValue);
+    Serial.println();
+  delay(500);
   digitalWrite(8,LOW);
   fsrValue = analogRead(fsrPin); // Read FSR value from analog pin
 
-    Serial.println("FSR1:"); 
+    Serial.println("FSR3:"); 
     Serial.print(fsrValue);
     Serial.println();
   delay(500);
