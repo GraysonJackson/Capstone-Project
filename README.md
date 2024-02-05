@@ -7,6 +7,8 @@ FSR Matrix (Male Terminal, 20kg Output Voltage)
 ADC (Analog Digital Convertor)  
 16 Channel Multiplexer  
 Arduino UNO
+100 kOhm resistor
+Force sensing resistor
 ## Resources
 https://www.sensitronics.com/tutorials/fsr-matrix-array/page2.php  
 https://www.tekscan.com/blog/flexiforce/how-does-force-sensing-resistor-fsr-work  

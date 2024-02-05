@@ -19,3 +19,13 @@ Having finished the wring for two FSRs, I began saudering another mulitplexer an
 Having successfully attached the second multiplexer to the breadboard, I began testing it to see if it has the same functionality as the first multiplexer. This was first tested by using alternating LED lights, and then tested using the same FSR multiplexer code and setup as the first multiplexer.
 # 11/9/2023:
 I've tried to connect the two multiplexers to the same anolog pin, and have run into difficulty. While they both work individually, when put together they have the same issue as before where the reading does not change. I feel that this may be because they are both connecting to the anolog pin, even when one isn't supposed to be read. I plan to see if turning the multiplexer off and on with code will change this.
+# 11/20/2023:
+I have progressed past two FSRs and have set up the FSR matrix. Many of the issues from last entry are still occurring, and I haven't been able to identify the problems
+# 12/5/2023:
+While many of the issues from last entry are still unidentifiable, I have been able determine that it would be best for me to add resistors between the FSRM and the analog pin in order to acheive a tighter spread of numbers in order to represent accuracy
+# 1/17/2024:
+I was finally able to find some of the issues with the multiplexer and FSRM. Some of the issues included using control pins that refused to turn on and off and voltage issues. The control pin fix was easy as I was able to change the control pins that were used, but the voltage is more complex. There should only be current running through one output of the multiplexer at a time, but there is voltage across all outputs. I am unsure of how to fix this as the control pins have no power, but I belive the issue may be within the VCC and EN pins of the mulitplexers.
+# 2/2/2024:
+Due to upcoming deadlines, I made the decision to downsize my project and collect data about the capabilities of FSRs first and foremost. I am doing this by downsizing to a singular FSR and testing its accuracy, speed, and how the two correlate with each other. I am also using different resistors with the FSR in order to find the best resistance to measure the the output of the FSR.
+# 2/4/2024:
+I was able to test the general readings of the FSR with a resisor, and was able to create a graph with the results. The outputted resistance by the FSR follows a logarithmic function when testing with weights ranging from 20g to 1kg.
